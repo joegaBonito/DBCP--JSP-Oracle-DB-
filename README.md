@@ -11,6 +11,5 @@ Add the following code into the context.xml in Tomcat(Server) folder:
 		type="javax.sql.DataSource"
 		maxActive="50"
 		maxWait="1000"
-		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
 	/>
 
