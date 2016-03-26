@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 
-import org.apache.tomcat.jdbc.pool.DataSource;
+import javax.sql.DataSource;
 
 public class MemberDAO {
 	//private String url = "jdbc:oracle:thin:@localhost:1522:xe";
